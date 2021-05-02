@@ -1,2 +1,2 @@
-# eleventy-boilerplate
-Basic template for 11ty based projects.
+# Web Components: Disclosure
+Modern and accessible production ready card components.
