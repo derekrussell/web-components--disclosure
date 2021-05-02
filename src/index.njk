@@ -1,11 +1,25 @@
 {% extends "layouts/page.html" %}
 
-{% from "components/component.html" import component %}
+{% from "components/disclosure.html" import disclosure %}
 
 {% block content %}
 
-{# component({
-  prop: "value"
-}) #}
+  <!-- Question 1 -->
+  {{ disclosure({
+    summary: "Question One?",
+    details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, temporibus consectetur? Consectetur quam excepturi quisquam dicta facilis, autem quod adipisci quia molestias voluptatum esse rem sed illo aliquid ducimus asperiores."
+  }) }}
+
+  <!-- Question 2 -->
+  {{ disclosure({
+    summary: "Question Two?",
+    details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fuga molestiae eveniet debitis, autem earum saepe sed ipsa harum commodi officiis soluta vel, at totam repudiandae fugit nobis voluptas distinctio!"
+  }) }}
+
+  <!-- Question 3 -->
+  {{ disclosure({
+    summary: "Question Three?",
+    details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti facilis rem error cum quae! Deleniti odit in ullam voluptatem, recusandae repellendus suscipit tempora temporibus at consequatur voluptatibus eligendi error expedita."
+  }) }}
 
 {% endblock %}

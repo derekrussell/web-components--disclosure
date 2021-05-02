@@ -1,0 +1,28 @@
+/* `disclosure`
+-------------------------------------------------- */
+
+ .disclosure {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.disclosure__content {
+  font-size: 1rem;
+  padding: 16px 24px;
+}
+
+.disclosure__summary {
+  border-bottom: 1px solid #eee;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px 24px;
+}
+
+.disclosure__summary:focus {
+  outline: 3px solid #fd0;
+  outline-offset: 0;
+}
+
